@@ -3,5 +3,13 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "remoteUser": "vscode"
+	"remoteUser": "vscode",
+	"extensions": [
+		"ms-python.python"
+	],
+    "settings": {
+        "python.pythonPath": "/usr/bin/python",
+        "jupyter.interactiveWindowMode": "perFile"
+    },
+    "postStartCommand": "pip install -r requirements.txt"
 }
