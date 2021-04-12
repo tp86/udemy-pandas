@@ -1,3 +1,4 @@
-pandas
+black
 ipykernel
-autopep8
+matplotlib
+pandas
